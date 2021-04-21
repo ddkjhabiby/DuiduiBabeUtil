@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.author             = { "Simple" => "habttt@163.com" }
     s.source       = { :git => "https://github.com/ddkjhabiby/DuiduiBabeUtil.git", :tag =>
  s.version }
-    s.source_files  = "Source/**"
+    s.source_files  = "Source/*"
     s.frameworks = 'Foundation', 'UIKit'
     s.requires_arc = true
     s.dependency 'RxSwift','~> 5.1.0'
