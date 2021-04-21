@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "DuiduiBabeUtil"
-    s.version      = "1.0.0"
+    s.version      = "1.0.1"
     s.swift_version='4.0'
     s.ios.deployment_target = '10.0'
     s.summary      = "Util Framework"
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
     s.author             = { "Simple" => "habttt@163.com" }
     s.source       = { :git => "https://github.com/ddkjhabiby/DuiduiBabeUtil.git", :tag =>
  s.version }
-    #s.source_files  = "DuiduiBabeUtil/*"
+    s.source_files  = "Source/**"
     s.frameworks = 'Foundation', 'UIKit'
     s.requires_arc = true
     s.dependency 'RxSwift','~> 5.1.0'
