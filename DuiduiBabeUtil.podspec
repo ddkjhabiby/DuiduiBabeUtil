@@ -1,5 +1,4 @@
-.
-d::Spec.new do |s|
+Pod::Spec.new do |s|
     s.name         = "DuiduiBabeUtil"
     s.version      = "1.0.0"
     s.swift_version='4.0'
