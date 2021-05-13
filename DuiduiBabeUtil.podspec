@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "DuiduiBabeUtil"
-    s.version      = "1.0.1"
+    s.version      = "1.0.2"
     s.swift_version='4.0'
     s.ios.deployment_target = '10.0'
     s.summary      = "Util Framework"
