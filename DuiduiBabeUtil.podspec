@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.dependency 'MMKV','~> 1.2.2'
     s.dependency 'KeychainSwift','~> 16.0'
     s.dependency 'DeviceKit','~> 3.2.0'
-    s.dependency 'CryptoSwift','~>1.0.0'
+    s.dependency 'CryptoSwift','~>1.3.2'
     s.dependency 'Moya','~> 13.0'
     s.dependency 'SwiftyUtils','~>5.2.0'
 end   
